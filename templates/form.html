@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>PASS/FAIL PROJECT BY RAKSHITA</title>
+     <style>
+      body {
+           background-color:#fff5;
+           background-image: url('https://cdn.glitch.global/294afd84-04ae-4602-9aba-1369a4d0b5b5/aiml5.jpeg?v=1720167619378');
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center;
+          }
+       table{
+          position:relative;
+          top:40px;
+          width: 20%;
+          height: 30%;
+          #for_blur
+          background:transparent;
+          backdrop-filter: blur(20px);
+          border:2px solid black;
+          border-radius: 6px;
+          font-weight:20px;
+          color:#fff;
+         }
+  </style>
+</head>
+   <body >
+    <h1 align="center" style="color:white;">
+       <u>PASS/FAIL PREDICTION (LINEAR REGRESSION)</u>
+    </h1>
+   <center>  
+    <form method="POST" action="/predict">
+     <table border="1">
+      <tr>  <td>Self Study Daily (in Hours):</td><td>  <input name="dhrs" type="number" min="0" max="10">  </td></tr>
+      <tr> <td>Tutorial Monthly (in Hours):</td> <td><input name="mhrs" type="number" min="20" max="50"> </td></tr>
+      <tr> <td colspan="2" align="center"> <input type="submit" value="PREDICT"></td></tr>
+       <tr><td colspan="2" align="center"> 
+     <br>
+     {{result}}
+    <br>
+    <br></td></tr>
+    </table>
+     </form>
+     <br>
+     <br>
+     <br>
+     <br>
+     <a href="home">
+     <h3 style="color:white;">
+     HOME PAGE
+       </h3>
+      </a>
+    </center>
+  </body>
+</html>
+
