@@ -1,4 +1,4 @@
-# PASS/FAIL PREDICTION (LINEAR REGRESSION):
+# PASS/FAIL PREDICTION (LINEAR REGRESSION)
 The pass/fail predication project uses machine learning to predict if a student will pass or fail based on daily hours of self-study and monthly tutorial. It demonstrates practical applications of data science through Python, Pandas and Flask for web deployment.
 # Dataset Columns:
 ## a) Self_Study_Daily
